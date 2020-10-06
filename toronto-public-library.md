@@ -56,7 +56,7 @@ The list of Open Data files published by TPL as of Sep 26, 2020 are:
 - Youth - Youth Hubs
 - Annual Visits
 
-The files used for analysis can be downloaded from the TPL Open Data portal. [Toronto Public Library Open Data](https://opendata.tpl.ca/)
+The files used for analysis can be downloaded from the TPL Open Data portal on Oct 5, 2020. [Toronto Public Library Open Data](https://opendata.tpl.ca/)
 The terms and conditions for use are available here: [TPL Open Data Policies and Term of Use](https://www.torontopubliclibrary.ca/terms-of-use/library-policies/open-data.jsp)
 The specific files downloaded on Sep 26, 2020, and used for Digital Divide analysis are:
 
@@ -65,33 +65,37 @@ The specific files downloaded on Sep 26, 2020, and used for Digital Divide analy
 3. [Branch Information - Catchment Population](https://github.com/ultush/digital-divide/blob/master/tpl-Catchment_Population.csv)
 4. [Branch Information - Neighbourhood Improvement Area Branches](https://github.com/ultush/digital-divide/blob/master/tpl-Neighbourhood_Improvement_Area_Branches.csv)
 
-These files contain the following fields  as listed i n  the following subsections.
+These files contain the following fields as listed in the following subsections.
 
 ### Technology - Workstations
 
 This report provides a list of library branches and the total number of computer workstations (public PCs with Internet Access) available for public access.
 
-Data available: 2017
+Data available: 2017, 2018, 2019
 
-Last updated: 20-Feb-2018
+Last updated: 01-Oct-2020
 
 Fields available in Technology - Workstations:
 - ID
 - Branch Name
 - Tier
-- 2017 (Total Workstation (Public PCs with Internet Access) in the year 2017)
+- 2019 (Total Workstations - Public PCs with Internet Access - in the year 2019)
+- 2018 (Total Workstations - Public PCs with Internet Access - in the year 2018)
+- 2017 (Total Workstations - Public PCs with Internet Access - in the year 2017)
 
 ### Technology - Workstation Users
 This report provides total pro-rated data from sample survey weeks on the number of people using public access computer workstations in the branch. It excludes computers dedicated to catalogue use.
 
-Data available: 2010-2017
+Data available: 2010-2019
 
-Last updated: 20-Feb-2018
+Last updated: 01-Oct-2020
 
 Fields available in Technology - Workstation Users:
 - ID
 - Branch Name
 - Tier
+- 2019 (Total Workstation Users in the year 2019)
+- 2018 (Total Workstation Users in the year 2018)
 - 2017 (Total Workstation Users in the year 2017)
 - 2016 (Total Workstation Users in the year 2016)
 - 2015 (Total Workstation Users in the year 2015)
@@ -107,7 +111,7 @@ This report provides a list of library branches and its catchment population. Br
 
 Data available: 2011, 2016
 
-Last updated: 20-Feb-2018
+Last updated: 01-Oct-2020
 
 Fields available in Branch Information - Catchment Population
 - ID
@@ -122,7 +126,7 @@ This report provides a list of neighbourhood improvement area branches. The desi
 
 Data available: 2015
 
-Last updated: 20-Feb-2018
+Last updated: 01-Oct-2020
 
 Fields available in Branch Information - Neighbourhood Improvement Area Branches
 - ID
@@ -150,22 +154,24 @@ By combining these files, the following Digital Divide related questions can be 
 ## Analysis Using R
 No data cleanup was performed. The filenames and variable names were changed to minimize potential issues with R.
 
-- Filename Workstation was changed to tpl-workstation
+- Filename Workstation was changed to tpl-workstations
 - Filename Workstation_Users was changed to tpl-workstation-users
 - Filename Catchment_Population was changed to tpl-catchment-population
 - Filename Neighbourhood_Improvement_Area_Branches was changed to tpl-nia_branches
 
 
-Filename tpl-workstation
-The header was removed
+Filename tpl-workstations
+The header "Total Workstation (Public PCs with Internet Access)" was removed
 The column headings were changed to:
 - id
 -	branch-name
 -	tier
+- workstations-2019
+- workstations-2018
 - workstations-2017
 
 Filename tpl-workstation-users
-The header was removed
+The header "Total Workstation Users" was removed
 The column headings were changed to:
 - id
 - branch-name
@@ -180,7 +186,7 @@ The column headings were changed to:
 -	workstation-users-2010
 
 File tpl-catchment-population
-The header was removed
+The header "Total Catchment Population" was removed
 The column headings were changed to:
 - id
 - branch-name
