@@ -1,0 +1,101 @@
+id,branch-name,tier,workstations-2019,workstations-2018,workstations-2017
+AG,Agincourt,DL,42,38,38
+ACD,Albert Campbell,DL,35,35,35
+AB,Albion,DL,38,42,42
+AD,Alderwood,NL,7,7,7
+AP,Amesbury Park,NL,6,6,6
+AN,Annette Street,NL,11,11,11
+AH,Armour Heights,NL,5,5,5
+BF,Barbara Frum,DL,30,32,32
+BY,Bayview,NL,6,6,6
+BE,Beaches,NL,12,12,12
+BD,Bendale,NL,9,9,9
+BC,Black Creek,NL,7,6,6
+BL,Bloor Gladstone,DL,36,39,39
+BR,Brentwood,DL,37,34,34
+BRW,Bridlewood,NL,7,7,7
+BB,Brookbanks,NL,9,9,9
+BUR,Burrows Hall,NL,10,10,10
+CED,Cedarbrae,DL,66,69,69
+CE,Centennial,NL,8,7,7
+CH,City Hall,NL,9,9,8
+CC,Cliffcrest,NL,9,8,8
+CS,College Shaw,NL,7,7,7
+DA,Danforth Coxwell,NL,9,7,7
+DT,Davenport,NL,3,3,3
+DR,Dawes Road,NL,15,13,13
+DP,Deer Park,NL,13,12,12
+DM,Don Mills,DL,24,27,27
+DO,Downsview,NL,32,35,35
+DU,Dufferin St. Clair,NL,20,21,21
+EA,Eatonville,NL,12,11,11
+ES,Eglinton Square,NL,11,8,8
+EB,Elmbrook Park,NL,4,3,3
+EG,Evelyn Gregory,NL,11,11,11
+FV,Fairview,DL,55,63,63
+FP,Flemingdon Park,NL,15,15,15
+FH,Forest Hill,NL,7,6,6
+FO,Fort York,NL,21,21,21
+GE,Gerrard Ashdale,NL,8,7,7
+GHP,Goldhawk Park,NL,10,10,10
+GW,Guildwood,NL,6,6,6
+HP,High Park,NL,9,9,9
+HC,Highland Creek,NL,11,9,9
+HIL,Hillcrest,NL,12,12,12
+HB,Humber Bay,NL,4,3,3
+HS,Humber Summit,NL,9,6,6
+HW,Humberwood,NL,7,7,7
+JD,Jane Dundas,NL,19,19,19
+JS,Jane Sheppard,NL,11,23,23
+JO,Jones,NL,7,7,7
+KE,Kennedy Eglinton,NL,14,14,14
+LE,Leaside,NL,13,11,11
+LHS,Lillian H. Smith,DL,38,36,36
+LO,Locke,NL,12,11,10
+LB,Long Branch,NL,11,11,11
+MA,Main Street,NL,9,9,9
+MAL,Malvern,DL,38,47,47
+MAS,Maria A. Shchuka,DL,35,38,38
+MRV,Maryvale,NL,9,10,10
+MCG,McGregor Park,NL,14,14,14
+MI,Mimico Centennial,NL,9,8,8
+MS,Morningside,NL,10,10,10
+MD,Mount Dennis,NL,20,20,20
+MP,Mount Pleasant,NL,2,2,2
+NT,New Toronto,NL,8,7,7
+ND,Northern District,DL,28,25,25
+NE,Northern Elms,NL,6,6,6
+OV,Oakwood Village Library and Arts Centre,NL,11,10,10
+PM,Palmerston,NL,7,6,6
+PA,Pape Danforth,DL,14,14,14
+PK,Parkdale,NL,23,23,23
+PL,Parliament Street,NL,12,12,12
+PE,Perth Dupont,NL,3,3,3
+PV,Pleasant View,NL,8,8,8
+PU,Port Union,NL,6,6,6
+QS,Queen Saulter,NL,6,6,6
+RX,Rexdale,NL,6,6,6
+RI,Richview,DL,43,42,42
+RD,Riverdale,NL,18,18,18
+RN,Runnymede,NL,15,13,13
+SWS,S. Walter Stewart,DL,40,43,43
+SA,Sanderson,NL,14,13,13
+SC,Scarborough Civic Centre,NL,19,20,20
+SP,Spadina Road,NL,5,5,5
+SI,St. Clair Silverthorn,NL,5,5,5
+SJ,St. James Town,NL,18,18,18
+SL,St. Lawrence,NL,7,7,7
+ST,Steeles,NL,8,7,7
+SW,Swansea Memorial,NL,3,2,2
+TA,Taylor Memorial,NL,8,7,7
+TH,Thorncliffe,NL,19,20,20
+TOD,Todmorden Room,NL,2,2,2
+VV,Victoria Village,NL,6,6,6
+WE,Weston,NL,11,11,11
+WS,Woodside Square,NL,22,22,22
+WP,Woodview Park,NL,9,8,8
+WY,Wychwood,NL,8,9,9
+YW,York Woods,DL,45,49,49
+YO,Yorkville,NL,7,7,7
+TRL,Toronto Reference Library,RR,217,270,270
+NYCL,North York Central,RR,155,145,145
