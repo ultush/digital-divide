@@ -252,3 +252,56 @@ The column headings were changed to:
 -	ward-region
 -	tsns-2020-nia
 -	tsns-2020-branch
+
+
+# The 10 year old quest for Toronto Public Library Open data
+
+My quest for Toronto Public started in December 2009,  and we have got to the point of useful data in October 2020.  That is a 10+ year journey from Open  Data requested to useable data published.
+
+Here is the email to show the timeline with names redacted, since the public servant has retired and moved on:
+
+---
+[redacted] <[redacted]@torontopubliclibrary.ca>
+
+Tue, Dec 22, 2009, 5:53 PM
+
+to u.sengupta
+Hello
+Toronto Public Library provides public Internet access at all of its 99 branches. I can provide information about the number of public computers at each branch. Are you interested in all public computers or only the ones that provide Internet access?
+
+We only gather and report use of public internet computers for the library as a whole not by branch. I can provide that information for 2008.
+
+I would be interested in learning more about your research project.
+
+[redacted]
+-----Original Message-----
+From: Ushnish Sengupta <u.sengupta@utoronto.ca>
+To: [redacted] <[redacted]@torontopubliclibrary.ca>
+
+Sent: 12/20/2009 11:11:59 AM
+Subject: Computer access through Toronto Public Libraries
+
+[redacted]
+
+I am a PhD student at the University of Toronto, and I am doing some research on computer access in Toronto.  Computer access through the Toronto Public Libraries is a key service in the city.
+
+Would it be possible to get some data on:
+1) Library locations that have computer access
+2) Number of computers at each location.
+3) Usage data from the "Reserve a Computer" system.
+
+Thank you for your assistance, and I would be happy to answer any questions.
+
+Sincerely
+Ushnish Sengupta
+PhD Candidate
+Ontario Institute for Studies in Education
+University of Toronto
+
+---
+To be accurate, some of the TPL open data sets were initially published in 2016. So although I revisited the data in 2020, some but not all the requested data sets have been available since 2016. There was an [Open Data Book Club meetup hosted by Richard Pietro](https://www.meetup.com/opentoronto/events/230108687/) and a subsequent hackathon including TPL Open Data, so TPL has put in effort into publicizing the available data.
+
+The lessons learned are:
+1) Be patient, Open Data requests may not be fulfilled for years.
+2) Even if the data is published, identified issues with the data may not be fixed for a while.
+3) If access to currently unpublished data is essential for your job, social sector mission, or PhD thesis or any other time dependent task, give up and move along to find some other ways of answering your questions.
