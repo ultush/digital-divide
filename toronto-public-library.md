@@ -3,18 +3,18 @@
 This document contains analysis of Toronto Public Library Open Data.
 
 Toronto Public Library (TPL) Open Data is an important pice of the puzzle in terms of understanding the Digital Divide in the city of Toronto.
-The City of Toronto does not collect or publish data on individual household level access to computers and the internet on a regular basis.  There are occasional surveys collecting this data and in the absence of direct indicators, proxy indicators such as computer access at libraries has become more important.  
+The City of Toronto does not collect or publish data on individual household level access to computers and the internet on a regular basis.
+There are occasional surveys collecting this data and in the absence of direct indicators, proxy indicators such as computer and internet access at libraries has become more important.  
 
 TPL provides access points for many citizens and visitors to Toronto for computers and internet access.
 Each TPL branch has computers connected with internet access that are available for use to library patrons during library hours.
-Note that some branches allow patrons to access the internet though wifi during hours when the library is closed.
+Note that some branches allow patrons to access the internet through wifi during hours when the library is closed.
 This has been a critical service for many citizens of Toronto during the Covid19 pandemic, when many services are available online rather than in person.
-When data is available on wifi access before and during the Covid19 pandemic, it will be analyzed here.
 
 Anecdotally, most computers are booked and are being used by library patrons for hours at a stretch.
 Many of the users of TPL computers do not have access to their own computer desktop/laptop or appropriate internet access from their homes.
 This is  an assumption since the city of Toronto does not collect or publish data on individual household level access to computers and the internet.
-Since the city of Toronto does not collect or publish data on individual household level access to computers and the internet the usage of computers at each library branch is a **proxy** for demand for internet services, based on the assumption the majority of users are using free library internet services since they do not have these services at their residence.
+Since the city of Toronto does not collect or publish data on individual household level access to computers and the internet, the usage of computers and wifi at each library branch is a **proxy** for demand for internet services, based on the assumption the majority of users are using free library internet services since they do not have these services at their residence.
 
 ## TPL Open Data Files Available
 
@@ -56,8 +56,10 @@ The list of Open Data files published by TPL as of Oct 1, 2020 are:
 - Youth - Youth Advisory Groups (YAGs) Locations
 - Youth - Youth Hubs
 - Annual Visits
+- Wireless Sessions (updated file available Oct 19. 2020)
 
-The files used for analysis were downloaded from the TPL Open Data portal on Oct 5, 2020. [Toronto Public Library Open Data](https://opendata.tpl.ca/)
+
+The files used for analysis were downloaded from the [Toronto Public Library Open Data portal](https://opendata.tpl.ca/) on Oct 19, 2020. 
 The terms and conditions for use are available here: [TPL Open Data Policies and Term of Use](https://www.torontopubliclibrary.ca/terms-of-use/library-policies/open-data.jsp)
 The specific files downloaded on Oct 5, 2020, and used for Digital Divide analysis are:
 
@@ -65,6 +67,7 @@ The specific files downloaded on Oct 5, 2020, and used for Digital Divide analys
 2. [Technology - Workstation Users](https://github.com/ultush/digital-divide/blob/main/tpl_workstation_users.csv)
 3. [Branch Information - Catchment Population](https://github.com/ultush/digital-divide/blob/main/tpl_catchment_population.csv)
 4. [Branch Information - Neighbourhood Improvement Area Branches](https://github.com/ultush/digital-divide/blob/main/tpl_nia_branches.csv)
+
 
 These files contain the following fields as listed in the following subsections.
 
