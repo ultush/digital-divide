@@ -18,7 +18,7 @@ Since the city of Toronto does not collect or publish data on individual househo
 
 ## TPL Open Data Files Available
 
-The list of Open Data files published by TPL as of Oct 1, 2020 are:
+The list of Open Data files published by TPL, available at [Toronto Public Library Open Data portal](https://opendata.tpl.ca/) as of Oct 1, 2020 are:
 - Catalogue, Event, and Feed Data from the website
 - Catalogue MARC Data
 - Realtime Library Branch Programs and Events Feed
@@ -51,22 +51,24 @@ The list of Open Data files published by TPL as of Oct 1, 2020 are:
 - Technology - Digital Innovation Hubs
 - Technology - Workstations
 - Technology - Workstation Users
-- Technology - Wireless Sessions
+- Technology - Wireless Sessions (updated file available Oct 19. 2020)
 - Youth - Teen Zones
 - Youth - Youth Advisory Groups (YAGs) Locations
 - Youth - Youth Hubs
 - Annual Visits
-- Wireless Sessions (updated file available Oct 19. 2020)
+
 
 
 The files used for analysis were downloaded from the [Toronto Public Library Open Data portal](https://opendata.tpl.ca/) on Oct 19, 2020.
 The terms and conditions for use are available here: [TPL Open Data Policies and Term of Use](https://www.torontopubliclibrary.ca/terms-of-use/library-policies/open-data.jsp)
 The specific files downloaded on Oct 5, 2020, and used for Digital Divide analysis are:
 
-1. [Technology - Workstations](https://github.com/ultush/digital-divide/blob/main/tpl_workstations.csv)
-2. [Technology - Workstation Users](https://github.com/ultush/digital-divide/blob/main/tpl_workstation_users.csv)
-3. [Branch Information - Catchment Population](https://github.com/ultush/digital-divide/blob/main/tpl_catchment_population.csv)
-4. [Branch Information - Neighbourhood Improvement Area Branches](https://github.com/ultush/digital-divide/blob/main/tpl_nia_branches.csv)
+
+1. Technology - Workstations
+2. Technology - Workstation Users
+3. Branch Information - Catchment Population
+4. Branch Information - Neighbourhood Improvement Area Branches
+5. Technology - Wireless Sessions
 
 
 These files contain the following fields as listed in the following subsections.
@@ -183,78 +185,24 @@ Fields available in file Technology - Wireless Sessions
 - Annual (2019)
 - Annual (2018)
 - Annual (2017)
-(Placeholder) there are some discrepancies in the data to be resolved.
+- Annual (2016)
+
+Note the Annual (2017) is somewhat anomalous, so it is not used for further analysis.
 
 By combining these files, the following Digital Divide related questions can be answered
 
-- What was the number of Wireless Sessions per capita per Branch in the year 2017?
-- What was the number of Wireless Sessions per capita per Branch in the year 2018?
+- What was the number of Wireless Sessions per capita per Branch in the year 2016?
 - What was the number of Wireless Sessions per capita per Branch in the year 2019?
-- What was the number of Workstation Users per Workstation per Branch in the year 2017?
+- Are the library branches with the highest number of Wireless Session per capita in 2016 in Neighbourhood Improvement Areas?
+- Are the library branches with the highest number of Wireless Session per capita in 2019 in Neighbourhood Improvement Areas?
 - What was the Catchment Population per Workstation per Branch in the year 2017?
 - What was the number of Workstation Users per Catchment Population per Branch in the year 2017?
 - Are the library branches with the highest number of Workstation Users per Workstation in Neighbourhood Improvement Areas?
 - Are the library branches with the highest Catchment Population per Workstation in Neighbourhood Improvement Areas?
-- Are the library branches with the highest number ofWorkstation Users per Catchment Population in Neighbourhood Improvement Areas?
+- Are the library branches with the highest number of Workstation Users per Catchment Population in Neighbourhood Improvement Areas?
 
 ## Analysis Using R
-No data cleanup was performed. The filenames and variable names were changed to minimize potential issues with R.
-
-- Filename Workstation was changed to tpl-workstations
-- Filename Workstation_Users was changed to tpl-workstation-users
-- Filename Catchment_Population was changed to tpl-catchment-population
-- Filename Neighbourhood_Improvement_Area_Branches was changed to tpl-nia_branches
-
-
-Filename tpl-workstations
-The header "Total Workstation (Public PCs with Internet Access)" was removed
-The column headings were changed to:
-- id
--	branch-name
--	tier
-- workstations-2019
-- workstations-2018
-- workstations-2017
-
-Filename tpl-workstation-users
-The header "Total Workstation Users" was removed
-The column headings were changed to:
-- id
-- branch-name
-- tier
-- workstation-users-2017
--	workstation-users-2016
-- workstation-users-2015
--	workstation-users-2014
-- workstation-users-2013
-- workstation-users-2012
--	workstation-users-2011
--	workstation-users-2010
-
-File tpl-catchment-population
-The header "Total Catchment Population" was removed
-The column headings were changed to:
-- id
-- branch-name
-- tier
-- population-2016
-- population-2011
-
-Filename tpl-nia_branches
-The header was removed
-The column headings were changed to:
-- id
--branch-name
-- tier
--	address
--	postal-code
-- fsa
--	nbhd-number
--	nbhd-name
--	ward-number
--	ward-region
--	tsns-2020-nia
--	tsns-2020-branch
+The analysis is described in an R markdown document
 
 
 # The 10 year old quest for Toronto Public Library Open data
