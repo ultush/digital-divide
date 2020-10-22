@@ -1,4 +1,5 @@
-id,branch_name,tier,address,postal_code,fsa,nbhd_number,nbhd_name,ward_number,ward_region,tsns_2020_nia,tsns_2020_branch
+Neighbourhood Improvement Area Branches,,,,,,,,,,,
+ID,Branch Name,Tier,Address,Postal Code,FSA,NBHD No.,NBHD Name,Ward No.,Ward Region,TSNS 2020 NIA,TSNS 2020 Branch
 ACD,Albert Campbell ,DL,496 Birchmount Rd,M1K 1N8,M1K,120,Clairlea-Birchmount ,20,Scarborough-Southwest,No,Yes
 AB,Albion,DL,1515 Albion Rd,M9V 1B2,M9V,2,Mount Olive-Silverstone-Jamestown,1,Etobicoke North,Yes,Yes
 AP,Amesbury Park,NL,1565 Lawrence Ave W,M6L 1A8,M6L,30,Brookhaven-Amesbury ,5,York South-Weston,No,Yes

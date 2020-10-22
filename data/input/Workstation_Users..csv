@@ -1,4 +1,5 @@
-id,branch-name,tier,workstation-users-2019,workstation-users-2018,workstation-users-2017,workstation-users-2016,workstation-users-2015,workstation-users-2014,workstation-users-2013,workstation-users-2012,workstation-users-2011,workstation-users-2010
+Total Workstation Users,,,,,,,,,,,,
+ID,Branch Name,Tier,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010
 AG,Agincourt,DL,110006,112149,134675,103406,158536,166023,180672,140407,170849,174233
 ACD,Albert Campbell,DL,54592,82784,150308,149712,145984,149898,133591,131353,126132,120739
 AB,Albion,DL,105936,111939,137999,140606,142187,142159,139402,132024,127153,123789

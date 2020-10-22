@@ -1,0 +1,123 @@
+"Room Booking: Auditorium, Meeting Room and Theatre",,,,,,,
+ID,Branch Name,Meeting Room,Auditorium ,Theatre,Room Name,Lecture,Classroom
+AG,Agincourt,,1,,Auditorium  ,100,32
+ACD,Albert Campbell,,1,,Auditorium,90,50
+ACD,Albert Campbell,1,,,Meeting room,25,25
+AB,Albion,1,,,Meeting room,12,12
+AB,Albion,,1,,Auditorium,60,50
+AN,Annette,,1,,Auditorium,50,24
+AN,Annette,1,,,Meeting room,25,16
+BF,Barbara Frum,,1,,Auditorium,125,60
+BF,Barbara Frum,1,,,Meeting room A,30,20
+BE,Beaches,1,,,Meeting room,50,24
+BD,Bendale,,1,,Auditorium,140,52
+BC,Black Creek,,1,,Auditorium ,42,28
+BL,Bloor Gladstone,,1,,Auditorium  ,40,40
+BR,Brentwood,1,,,Meeting room,50,32
+BB,Brookbanks,1,,,Meeting room,55,24
+CED,Cedarbrae ,,1,,Auditorium,60,40
+CE,Centennial,,1,,Auditorium,85,85
+CC,Cliffcrest,1,,,Meeting room,25,24
+CS,College Shaw,,1,,Auditorium,55,16
+CS,College Shaw,1,,,Meeting room,20,8
+DA,Danforth Coxwell,1,,,Meeting room,61,38
+DT,Davenport,1,,,Meeting room,40,32
+DR,Dawes Road,1,,,Meeting room,26,20
+DP,Deer Park,1,,,Meeting room,64,38
+DP,Deer Park,1,,,Main Fl. Mtg Rm,16,8
+DM,Don Mills ,,1,,Auditorium,90,80
+DM,Don Mills ,1,,,Meeting Room 1,12,8
+DM,Don Mills ,1,,,Meeting Room,12,8
+DO,Downsview,,1,,Auditorium,52,32
+DO,Downsview,1,,,Meeting room A,25,25
+DO,Downsview,1,,,Meeting room B,10,8
+DO,Downsview,1,,,Meeting room C,30,24
+DU,Dufferin St.Clair,1,,,Meeting room,60,30
+EA,Eatonville,,1,,Auditorium,100,50
+ES,Eglinton Square,1,,,Meeting room,25,15
+ES,Eglinton Square,1,,,Meeting/program room,55,28
+EG,Evelyn Gregory,1,,,Meeting room,40,18
+FV,Fairview,,,1,Theatre,260,
+FV,Fairview,1,,,Meeting Room 1 ,50,32
+FV,Fairview,1,,,Meeting Room 2,50,28
+FV,Fairview ,1,,,Meeting Room 3,96,32
+FV,Fairview ,1,,,Meeting Room 4,24,16
+FP,Flemingdon Park,,1,,Auditorium,125,80
+FO,Fort York ,1,,,Meeting Room,40,24
+FH,Forest Hill,1,,,Meeting Room,30,16
+GHP,Goldhawk Park,1,,,Meeting room,40,24
+HP,High Park,1,,,Meeting room,40,16
+HC,Highland Creek,1,,,Meeting room,50,24
+HIL,Hillcrest,,1,,Auditorium,100,56
+HS,Humber Summit,,1,,Auditorium,85,30
+HS,Humber Summit,1,,,Meeting room 1,30,18
+JD,Jane Dundas,1,,,Meeting room,50,24
+JS,Jane Sheppard,1,,,Meeting room,35,24
+KE,Kennedy Eglinton,1,,,Meeting room 1,30,24
+KE,Kennedy Eglinton,1,,,Meeting room 2 ,15,15
+LE,Leaside,,1,,Auditorium,75,36
+LHS,Lillian H. Smith ,,1,,Auditorium BC,70,28
+LHS,Lillian H. Smith ,1,,,Meeting room A,30,12
+LO,Locke,1,,,Meeting room,30,10
+LB,Long Branch,1,,,Meeting room,49,20
+MA,Main Street,1,,,Meeting room,30,8
+MAL,Malvern ,,1,,Auditorium,70,40
+MAL,Malvern ,1,,,Meeting room 1 ,10,10
+MAS,Maria A. Shchuka,1,,,Meeting room A,60,32
+MAS,Maria A. Shchuka,1,,,Meeting room B,30,24
+MRV,Maryvale,1,,,Meeting room,30,16
+MCG,McGregor Park,1,,,Meeting room,30,8
+MI,Mimico,,1,,Auditorium,125,28
+MI,Mimico,1,,,Meeting room,16,16
+MS,Morningside,1,,,Meeting room,50,35
+MD,Mount Dennis ,1,,,Meeting room 1,50,36
+MD,Mount Dennis ,1,,,Meeting Room 2,20,16
+MP,Mount Pleasant,1,,,Meeting room ,70,20
+NT,New Toronto,1,,,Meeting room,50,25
+NYCL,North York Central Library,,1,,Auditorium,175,60
+NYCL,North York Central Library,1,,,Meeting Room 1,75,28
+NYCL,North York Central Library,1,,,Meeting Room 101,80,44
+NYCL,North York Central Library,1,,,Meeting Room 2/3,54,36
+ND,Northern District,1,,,Room 224,89,48
+ND,Northern District,1,,,Gwen Liu Meeting Room -Rm. 200,100,40
+ND,Northern District,1,,,Main Fl. Mtg Rm,48,24
+OV,Oakwood Villiage Library and Arts Centre,,1,,Auditorium,110,72
+PM,Palmerston,,,1,Theatre,120,0
+PM,Palmerston,1,,,Meeting room,25,8
+PA,Pape Danforth,1,,,Meeting room,30,24
+PK,Parkdale,,1,,Auditorium,160,52
+PK,Parkdale,1,,,Meeting room B,15,12
+PK,Parkdale,1,,,Meeting room A,,30
+PL,Parliament,1,,,Meeting room ,60,28
+PL,Parliament,1,,,Main Fl. Mtg Rm,25,16
+PE,Perth/Dupont,1,,,Meeting room,21,12
+PV,Pleasant View,,1,,Auditorium,90,40
+PU,Port Union,1,,,Meeting room,40,12
+RI,Richview,1,,,Meeting room B,40,34
+RI,Richview,,1,,Auditorium,50,48
+RD,Riverdale,1,,,Meeting room 1,66,48
+RD,Riverdale,1,,,Meeting room 2,30,16
+RN,Runnymede,1,,,Meeting room,60,36
+SWS,S.Walter Stewart,,1,,Auditorium,150,60
+SWS,S.Walter Stewart,1,,,Meeting room,24,12
+SA,Sanderson,,1,,Auditorium,70,36
+SC,Scarborough Civic Centre,1,,,Meeting Room,40,24
+SI,St. Clair/Silverthorn,1,,,Meeting room,35,16
+ST,Steeles,1,,,Meeting room ,40,16
+TA,Taylor Memorial,1,,,Meeting room,40,24
+TH,Thorncliffe ,1,,,Meeting room ,42,24
+TRL,Toronto Reference Library,1,,,Room B-1,15,
+TRL,Toronto Reference Library,1,,,Beeton East,65,25
+TRL,Toronto Reference Library,1,,,Beeton West,80,38
+TRL,Toronto Reference Library,,1,,Beeton Auditorium,150,75
+TRL,Toronto Reference Library,1,,,Epic Hall & Prologue,458,400
+TRL,Toronto Reference Library,1,,,Novella Room,117,90
+TRL,Toronto Reference Library,,1,,Appel Salon,576,355
+VV,Victoria Village,,1,,Barry Burton Auditorium,75,28
+WE,Weston,1,,,Meeting room,50,24
+WS,Woodside Square,1,,,Meeting room,50,36
+WY,Wychwood,1,,,Meeting room,27,12
+YW,York Woods,,,1,Theatre,240,
+YW,York Woods,1,,,Meeting room 1,23,23
+YW,York Woods,1,,,Meeting room 2,56,32
+YO,Yorkville,1,,,Meeting Room,16,8

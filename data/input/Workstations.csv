@@ -1,4 +1,5 @@
-id,branch-name,tier,workstations-2019,workstations-2018,workstations-2017
+Total Workstation (Public PCs with Internet Access),,,,,
+ID,Branch Name,Tier,2019,2018,2017
 AG,Agincourt,DL,42,38,38
 ACD,Albert Campbell,DL,35,35,35
 AB,Albion,DL,38,42,42

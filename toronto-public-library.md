@@ -59,7 +59,7 @@ The list of Open Data files published by TPL as of Oct 1, 2020 are:
 - Wireless Sessions (updated file available Oct 19. 2020)
 
 
-The files used for analysis were downloaded from the [Toronto Public Library Open Data portal](https://opendata.tpl.ca/) on Oct 19, 2020. 
+The files used for analysis were downloaded from the [Toronto Public Library Open Data portal](https://opendata.tpl.ca/) on Oct 19, 2020.
 The terms and conditions for use are available here: [TPL Open Data Policies and Term of Use](https://www.torontopubliclibrary.ca/terms-of-use/library-policies/open-data.jsp)
 The specific files downloaded on Oct 5, 2020, and used for Digital Divide analysis are:
 
