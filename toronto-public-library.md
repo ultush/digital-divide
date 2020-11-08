@@ -202,8 +202,110 @@ By combining these files, the following Digital Divide related questions can be 
 - Are the library branches with the highest number of Workstation Users per Catchment Population in Neighbourhood Improvement Areas?
 
 ## Analysis Using R
-The analysis is described in an R markdown document
+There is one known issue with Wireless data file that is worthwhile pointing out. The data for year 2017 includes a significant drop in number of sessions across most library branches without explanation. Since 2017 was not a particularly special year, there is no reason for this drop. It is likely that data is missing or was not collected.  Therefore 2017 wireless session data is not used for further analysis.
 
+|branch_name                             | wireless_sessions_2019| wireless_sessions_2018| wireless_sessions_2017| wireless_sessions_2016|
+|:---------------------------------------|----------------------:|----------------------:|----------------------:|----------------------:|
+|Agincourt                               |                 123430|                 127812|                  19260|                 105055|
+|Albert Campbell                         |                  33762|                  47197|                  12119|                  47061|
+|Albion                                  |                 132074|                 124912|                  17845|                  66481|
+|Alderwood                               |                  15743|                  16852|                   3131|                  14415|
+|Amesbury Park                           |                  17015|                  14032|                   3363|                   6916|
+|Annette Street                          |                  17091|                  18278|                   5535|                  21590|
+|Armour Heights                          |                  14111|                  14235|                   3655|                  13947|
+|Barbara Frum                            |                  62080|                  67428|                  16533|                  80446|
+|Bayview                                 |                  31396|                  40577|                  10857|                  47747|
+|Beaches                                 |                  37054|                  40094|                   9367|                  40609|
+|Bendale                                 |                  11291|                  11136|                   2785|                  10387|
+|Black Creek                             |                  51043|                  45285|                  10263|                  41917|
+|Bloor/Gladstone                         |                 109765|                 111390|                  27611|                 109978|
+|Brentwood                               |                  67226|                  61485|                  18010|                  68203|
+|Bridlewood                              |                 109378|                 152343|                  34583|                 149866|
+|Brookbanks                              |                  23062|                  21596|                   4893|                  19699|
+|Burrows Hall                            |                  27128|                  26830|                   6268|                  26639|
+|Cedarbrae                               |                 101638|                 103048|                  27861|                 111625|
+|Centennial                              |                  32647|                  41714|                   8626|                  41042|
+|City Hall                               |                  33122|                  42895|                   8908|                  45314|
+|Cliffcrest                              |                  17294|                  17236|                   3943|                  16487|
+|College/Shaw                            |                  26257|                  27779|                   7783|                  34363|
+|Danforth/Coxwell                        |                  31554|                  29530|                   9064|                  35104|
+|Davenport                               |                  11314|                  11315|                   1740|                   9030|
+|Dawes Road                              |                  24892|                  21099|                   5026|                  22186|
+|Deer Park                               |                  48318|                  54783|                  11598|                  57540|
+|Don Mills                               |                  52037|                  61822|                  15516|                  62051|
+|Downsview                               |                  43453|                  64295|                  16800|                  65726|
+|Dufferin/St. Clair                      |                  22637|                  23810|                   6316|                  24421|
+|Eatonville                              |                  56775|                  58329|                  13552|                  59287|
+|Eglinton Square                         |                  91633|                  84643|                     NA|                  41726|
+|Elmbrook Park                           |                  10825|                  11433|                   2777|                  12973|
+|Evelyn Gregory                          |                  15819|                  15116|                   2886|                  14039|
+|Fairview                                |                 192242|                 214608|                  64686|                 243970|
+|Flemingdon Park                         |                  26634|                  26494|                   7834|                  32716|
+|Forest Hill                             |                  39197|                  40260|                  10326|                  42972|
+|Fort York                               |                  66808|                  68533|                  17100|                  72886|
+|Gerrard/Ashdale                         |                  25846|                  25352|                   5597|                  22174|
+|Goldhawk Park                           |                  43239|                  35811|                   7819|                  36154|
+|Guildwood                               |                   5823|                  16413|                   3982|                  17237|
+|High Park                               |                  48168|                  37340|                  11390|                  43931|
+|Highland Creek                          |                  17505|                  14102|                   3549|                  14574|
+|Hillcrest                               |                  25008|                  26713|                   5885|                  25457|
+|Humber Bay                              |                   5007|                   5098|                   1152|                   4871|
+|Humber Summit                           |                  14092|                   9657|                   2239|                   5699|
+|Humberwood                              |                  16681|                  11598|                   3317|                  11475|
+|Jane/Dundas                             |                  59019|                  47752|                  13293|                  51147|
+|Jane/Sheppard                           |                  24814|                  24690|                   6731|                  29005|
+|Jones                                   |                  12301|                  13012|                   3245|                  15691|
+|Kennedy/Eglinton                        |                  25695|                  26468|                   5846|                  24930|
+|Leaside                                 |                  22835|                  23654|                   5474|                  22607|
+|Lillian H. Smith                        |                  52440|                  66257|                  15945|                  67976|
+|Locke                                   |                  64205|                  69904|                  15635|                  74360|
+|Long Branch                             |                  11732|                  11847|                   2948|                  12361|
+|Main Street                             |                  23455|                  22109|                   6023|                  22834|
+|Malvern                                 |                  71521|                  79090|                  20066|                  79835|
+|Maria A. Shchuka                        |                  67392|                  66238|                  15982|                  66883|
+|Maryvale                                |                  37044|                  35293|                  11726|                  43183|
+|McGregor Park                           |                  33450|                  32650|                   8616|                  32902|
+|Mimico Centennial                       |                  13385|                  15830|                   4139|                  16214|
+|Morningside                             |                  27391|                  25329|                   5606|                  24065|
+|Mount Dennis                            |                  22341|                  19040|                   5219|                  20550|
+|Mount Pleasant                          |                   8018|                   8571|                   2065|                   8976|
+|New Toronto                             |                  11808|                  12150|                   2890|                  11882|
+|North York Central Library              |                 463847|                 216139|                  19524|                  69897|
+|Northern District                       |                 113891|                 126985|                  32147|                 138970|
+|Northern Elms                           |                  15892|                  13376|                   3023|                  14488|
+|Oakwood Village Library and Arts Centre |                  24286|                  19712|                   5488|                  22778|
+|Palmerston                              |                  15858|                  16262|                   4076|                  17183|
+|Pape/Danforth                           |                  34364|                  41417|                  10268|                  39944|
+|Parkdale                                |                  31109|                  52860|                  14609|                  56828|
+|Parliament Street                       |                  35471|                  60416|                  12707|                  55597|
+|Perth/Dupont                            |                   7841|                   9495|                   1949|                   9849|
+|Pleasant View                           |                  17047|                  14515|                   3999|                  16334|
+|Port Union                              |                  21956|                  20322|                   5511|                  22680|
+|Queen/Saulter                           |                  10346|                   9513|                   2945|                  11776|
+|Rexdale                                 |                  11194|                  10768|                   2468|                  11345|
+|Richview                                |                  90684|                  75279|                  18223|                  66337|
+|Riverdale                               |                  42946|                  48515|                  11666|                  50458|
+|Runnymede                               |                  35265|                  38512|                   3499|                  23138|
+|S. Walter Stewart                       |                  54474|                  57016|                  15298|                  56982|
+|Sanderson                               |                  68999|                  71742|                  15661|                  79829|
+|Scarborough Civic Centre                |                  76823|                  74559|                  18932|                  74461|
+|Spadina Road                            |                  12544|                  12185|                   3556|                  15308|
+|St. Clair/Silverthorn                   |                   2270|                    155|                   2016|                   7730|
+|St. James Town                          |                  57115|                  43683|                  13291|                  45499|
+|St. Lawrence                            |                  27498|                  23501|                   5621|                  26394|
+|Steeles                                 |                  47908|                  17133|                  10502|                  47089|
+|Swansea Memorial                        |                   6193|                   5069|                   1679|                   6341|
+|Taylor Memorial                         |                   9648|                   9727|                   1821|                   9624|
+|Thorncliffe                             |                  53849|                  42974|                   9620|                  43946|
+|Todmorden Room                          |                  15707|                  12577|                   3787|                  15324|
+|Toronto Reference Library               |                 579193|                 769405|                 191547|                 822123|
+|Victoria Village                        |                   7622|                   7741|                   1977|                   8069|
+|Weston                                  |                  29396|                  26359|                   6149|                  25100|
+|Woodside Square                         |                  75083|                  88044|                  23873|                  95373|
+|Woodview Park                           |                  19749|                  18444|                   4332|                  18474|
+|Wychwood                                |                     NA|                  11705|                   6267|                  23738|
+|York Woods                              |                  47701|                  69551|                  18802|                  76093|
+|Yorkville                               |                  23027|                  25308|                   5380|                  26411|
 
 # The 10 year old quest for Toronto Public Library Open data
 
